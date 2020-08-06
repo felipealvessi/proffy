@@ -50,7 +50,7 @@
 }
 
 .buttons-container a img {
-  width: 6rem;
+  width: 7rem;
   margin-right: 2.4rem;
 }
 
@@ -90,20 +90,31 @@
     grid-template-rows: 350px 1fr;
     grid-template-areas:
     "proffy image image"
-    "button button texting"
+    "button button texting";
+    gap: 60px;
   }
     
   .logo-container {
     grid-area: proffy;
+    text-align: initial;
+    align-self: center;
   }
+
+  .logo-container img {
+    height: 100%;
+  }
+
   .hero-image {
     grid-area: image;
   }
+
   .buttons-container {
     grid-area: button;
   }
+
   .total-connections {
     grid-area: texting;
   }
+
 
 }
