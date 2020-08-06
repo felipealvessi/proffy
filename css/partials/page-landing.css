@@ -5,3 +5,7 @@
 #page-landing {
   background: var(--color-primary);
 }
+
+#page-landing #container {
+  color: var(--color-text-in-primary);
+}
