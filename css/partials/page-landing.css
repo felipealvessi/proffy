@@ -13,3 +13,11 @@
 .logo-container img {
   height: 10rem;
 }
+
+.logo-container {
+  text-align: center;
+}
+
+.hero-image {
+  width: 100%;
+}
