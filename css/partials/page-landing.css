@@ -45,6 +45,7 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  transition: backgroud 0.2s;
   color: var(--color-button-text);
 }
 
@@ -56,6 +57,11 @@
   background: var(--color-primary-lighter);
 }
 
+.buttons-container a.study:hover {
+  background: var(--color-primary-light);
+}
+
 .buttons-container a.give-classes {
   background: var(--color-secondary);
+  margin-right: 0;
 }
