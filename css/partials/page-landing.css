@@ -28,3 +28,15 @@
 .hero-image {
   width: 100%;
 }
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin: 3.2rem 0;
+}
+
+.buttons-container a {
+  width: 30rem;
+  height: 10.rem;
+  border-radius: 0.8rem;
+}
