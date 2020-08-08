@@ -174,8 +174,25 @@
   color: var(--color-text-complement);
 }
 
-.teacher-item footer strong {
+.teacher-item footer p strong {
   font-size: 1.6rem;
   color: var(--color-primary);
   display: block;
+}
+
+.teacher-item footer button {
+  width: 20rem;
+  height: 5.6rem;
+  background: var(--color-secondary);
+  color: var(--color-button-text);
+  border: 0;
+  border-radius: .8rem;
+  cursor: pointer;
+  font: 700 1.4rem Archivo;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+  transition: background 0.2s;
+  margin-left: 1.6rem;
 }
