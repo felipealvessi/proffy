@@ -153,7 +153,7 @@
   margin-top: .4rem;
 }
 
-.teacher-item p {
+.teacher-item > p {
   padding: 0 2rem;
   font-size: 1.6rem;
   line-height:  2.8rem;
@@ -225,6 +225,10 @@
     justify-content: center;
   }
 
+  .page-header .header-content strong {
+    max-width: 350px;
+  }
+
   .teacher-item header,
   .teacher-item fotter {
     padding: 32px;
@@ -236,5 +240,28 @@
     gap: 16px;
     position: absolute;
     bottom: -28px;
+  }
+
+  #page-study main {
+    padding: 32px;
+    max-width: 740px;
+    margin: 0 auto;
+  }
+
+  #search-teachers .select-block {
+    margin-bottom: 0;
+  }
+
+  .teacher-item > p {
+    padding: 0 32px;
+  }
+
+  .teacher-item footer p strong {
+    display: initial;
+    margin-left: 16px;
+  }
+
+  .teacher-item footer button {
+    width: 245px;
   }
 }
