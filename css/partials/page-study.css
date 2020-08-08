@@ -74,3 +74,7 @@
   transition: background 0.2s;
   margin-top: 3.2rem;
 }
+
+#search-teachers button:hover {
+  background-color: var(--color-secondary-dark);
+}
